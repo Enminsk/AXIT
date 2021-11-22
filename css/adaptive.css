@@ -1,0 +1,241 @@
+@media (max-width:1400px){
+    .social{
+        max-width: 970px;
+    }
+    .block-heading-title {
+        font-size: 30px;
+    }
+    .heading-title {
+        font-size: 30px;
+    }
+    .social__text {
+        display: none;
+    }
+    .social__icon {
+        margin: 0px 200px 0px 200px;
+    }
+    .process{
+        max-width: 970px;
+    }
+    .card {
+        width: 300px;
+    }
+    .prising{
+        max-width: 970px;
+    }
+    .table-item {
+        width: 300px;
+    }
+    .table-free {
+        width: 300px;
+    }
+    .table-price {
+        width: 300px;
+    }
+    .table-basic {
+        width: 300px;
+    }
+    .table {
+        width: 300px;
+    }
+    .prising__tables-block-table {
+        margin: 68px 10px;
+    }
+    .testimonials{
+        max-width: 970px;
+    }
+    .menu {
+        max-width: 970px;
+    }
+    .menu__button-nav {
+        margin-left: 400px;
+    }
+    .menu__logo {
+        margin-left: 10px;
+    }
+    .feautures {
+        max-width: 970px;
+    }
+    .feautures__frame {
+        display: none;
+    }
+    .header {
+        max-width: 970px;
+    }
+    .header__form {
+        margin-left: 50px;
+    }
+    .stylish {
+        max-width: 970px;
+    }
+    .contact {
+        max-width: 970px;
+    }
+    .form2__input {
+        max-width: 400px;
+    }
+    .form3__input {
+        max-width: 400px;
+        margin-left: 100px;
+    }
+    .footer {
+        max-width: 970px;
+    }
+}
+
+
+@media (max-width:992px){
+    .social{
+        max-width: 750px;
+    }
+    .social__text {
+        display: none;
+    }
+    .social__icon {
+        margin: 0px 200px 0px 200px;
+    }
+    .social__icon-value {
+        max-width: 500px;
+        height: 40px;
+    }
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+    }
+    .process{
+        max-width: 750px;
+    }
+    .card {
+        width: 200px;
+    }
+    .prising{
+        max-width: 750px;
+    }
+    .prising__tables {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 1 100%;
+    }
+    .prising__tables-block-table {
+        margin: 30px 20px 10px 20px;
+    }
+    .testimonials{
+        max-width: 750px;
+    }
+    .menu {
+        max-width: 750px;
+    }
+    .menu__button-nav {
+        margin: 0px 0px 0px 200px;
+    }
+    .menu__logo {
+        margin-left: 5px;
+    }
+    .feautures {
+        max-width: 750px;
+    }
+    .feautures__image {
+        display: none;
+    }
+    .feautures__center {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        max-width: 750px;
+    }
+    .header__info-icon {
+        margin-top: 50px;
+    }
+    .header__info-title {
+        font-size: 30px;
+    }
+    .header__form {
+        margin: 0px 10px 0px 10px;
+    }
+    .stylish {
+        max-width: 750px;
+    }
+    .contact {
+        max-width: 750px;
+    }
+    .form2__input {
+        max-width: 300px;
+    }
+    .form3__input {
+        max-width: 300px;
+        margin-left: 50px;
+    }
+    .footer {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px){
+    .header-background {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__info {
+        align-items: center;
+        text-align: center;
+    }
+    .header__info-icon {
+        display: none;
+    }
+    .header__form-free {
+        margin-top: 20px;
+    }
+    .social__icon-value {
+        max-width: 310px;
+        height: 20px;
+    }
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+    }
+    .card {
+        flex: 0 1 33.333%;
+    }
+    .process__row {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials__footer-card {
+        margin-bottom: 10px;
+        flex: 0 1 33.333%;
+    }
+    .testimonials__footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .prising__tables {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__info {
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+    }
+    .form2__input {
+        max-width: 250px;
+    }
+    .form3__input {
+        max-width: 250px;
+        margin: 37px 0px 0px 15px;
+    }
+    .menu__logo-logo {
+        margin: 0px 400px 0px 400px;
+
+    }
+    .menu__button-nav {
+        display: none;
+    }
+}

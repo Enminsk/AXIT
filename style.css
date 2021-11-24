@@ -10,7 +10,6 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration: none;
  }
 
-
 .menu {
     height: 70px;
     position: fixed;
@@ -31,6 +30,10 @@ a, a:hover, a:active, a:visited, a:focus {
 .menu__logo-logo {
     width: 68px;
     height: 30px;
+}
+
+.icon-menu {
+    display: none;
 }
 
 .menu__button-nav {
@@ -126,14 +129,11 @@ a, a:hover, a:active, a:visited, a:focus {
 }
 
 .header__form-free {
-    width: 370px;
-    height: 370px;
     background: #FFFFFF;
     border-radius: 8px;
 }
 
 .free-free {
-    width: 370px;
     height: 56px;
     font-family: Open Sans;
     font-style: normal;
@@ -162,7 +162,6 @@ textarea:focus {
 }
 
 .form {
-    width: 370px;
     height: 260px;
     display: flex;
     flex-direction: column;
@@ -201,7 +200,6 @@ textarea:focus {
 }
 
 .social {
-    max-width: 1400px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -570,6 +568,7 @@ textarea:focus {
 }
 
 .testimonials__footer {
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -577,7 +576,6 @@ textarea:focus {
 }
 
 .testimonials__footer-card {
-    width: 298px;
     display: flex;
     flex-direction: column;
     justify-content: center;
